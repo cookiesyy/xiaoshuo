@@ -1,0 +1,53 @@
+{
+  "chapter": 2,
+  "title": "入住",
+  "location": "静雅小区3号楼602室",
+  "characters": ["yefan", "guwanqing"],
+  "word_count": 3600,
+  "scenes_count": 4,
+  "created_at": "2026-01-18T23:45:00.000000",
+  "entities_appeared": [
+    {"entity_id": "yefan", "entity_type": "角色", "mentions": ["叶凡", "他"], "scene_index": 1},
+    {"entity_id": "guwanqing", "entity_type": "角色", "mentions": ["顾晚晴", "她"], "scene_index": 1},
+    {"entity_id": "mother_gu", "entity_type": "角色", "mentions": ["她母亲", "妈"], "scene_index": 4},
+    {"entity_id": "living_room", "entity_type": "地点", "mentions": ["客厅"], "scene_index": 3},
+    {"entity_id": "kitchen", "entity_type": "地点", "mentions": ["厨房"], "scene_index": 3},
+    {"entity_id": "neighbor_community", "entity_type": "地点", "mentions": ["隔壁小区"], "scene_index": 1},
+    {"entity_id": "sofa", "entity_type": "物品", "mentions": ["沙发"], "scene_index": 3},
+    {"entity_id": "apple", "entity_type": "物品", "mentions": ["苹果"], "scene_index": 3}
+  ],
+  "scenes": [
+    {
+      "scene_index": 1,
+      "location": "602室门口/次卧",
+      "summary": "叶凡早上九点准时入住602室，顾晚晴交代租房规矩后出门看房。叶凡收拾房间时夸赞顾晚晴穿搭，两人互动产生微妙气氛。",
+      "characters": ["yefan", "guwanqing"],
+      "start_line": 1,
+      "end_line": 72
+    },
+    {
+      "scene_index": 2,
+      "location": "602室次卧",
+      "summary": "叶凡整理行李时发现账户余额仅600元，心情沉重。母亲发来微信关心，他强撑说能搞定。下午叶凡睡着后被顾晚晴敲门吵醒。",
+      "characters": ["yefan"],
+      "start_line": 73,
+      "end_line": 143
+    },
+    {
+      "scene_index": 3,
+      "location": "602室客厅/厨房",
+      "summary": "顾晚晴买菜回来，叶凡夸她讲究。顾晚晴给叶凡一个苹果，两人关系缓和。晚餐时顾晚晴询问叶凡感情状况，叶凡反问她的过往，得知她曾有过恋情但已分手。",
+      "characters": ["yefan", "guwanqing"],
+      "start_line": 144,
+      "end_line": 274
+    },
+    {
+      "scene_index": 4,
+      "location": "602室客厅/顾晚晴房间",
+      "summary": "顾晚晴接到母亲催电话，态度大变，对叶凡恢复冷淡。叶凡深夜失眠，浏览招聘网站投简历但无回应，为600元余额和找工作发愁。",
+      "characters": ["yefan", "guwanqing", "mother_gu"],
+      "start_line": 275,
+      "end_line": 368
+    }
+  ]
+}

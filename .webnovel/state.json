@@ -4,10 +4,10 @@
     "genre": "都市言情",
     "author": "叶凡",
     "target_words": 1500000,
-    "current_words": 0,
-    "current_chapter": 1,
+    "current_words": 7200,
+    "current_chapter": 2,
     "created_at": "2026-01-18",
-    "updated_at": "2026-01-18T23:28:02.674254",
+    "updated_at": "2026-01-18T23:45:00.000000",
     "golden_finger": "无",
     "core_selling_point": "冷艳房东×痞帅租客的先虐后甜感情线"
   },
@@ -43,11 +43,41 @@
         "desc": "主角，落魄富二代，痞帅有担当",
         "current": {
           "realm": "普通人",
-          "location": "顾晚晴的出租房",
-          "status": "租房中",
-          "last_chapter": 0
+          "location": "602室次卧",
+          "status": "已入住/找工作",
+          "money": "600元",
+          "last_chapter": 2
         },
-        "history": [],
+        "history": [
+          {
+            "chapter": 1,
+            "field": "location",
+            "old": "",
+            "new": "顾晚晴的出租房",
+            "reason": "租房成功"
+          },
+          {
+            "chapter": 2,
+            "field": "location",
+            "old": "顾晚晴的出租房",
+            "new": "602室次卧",
+            "reason": "正式入住"
+          },
+          {
+            "chapter": 2,
+            "field": "status",
+            "old": "租房中",
+            "new": "已入住",
+            "reason": "完成入住手续"
+          },
+          {
+            "chapter": 2,
+            "field": "money",
+            "old": null,
+            "new": "600元",
+            "reason": "账户余额暴露经济困难"
+          }
+        ],
         "created_chapter": 1,
         "first_appearance": "正文/第0001章.md"
       },
@@ -59,12 +89,12 @@
           "那个女人"
         ],
         "tier": "核心",
-        "desc": "女主，冷艳房东，外冷内热",
+        "desc": "女主，冷艳房东，外冷内热，有房产多套",
         "current": {
           "realm": "普通人",
-          "location": "静雅小区3号楼602室(房产)",
-          "status": "房东",
-          "last_chapter": 1
+          "location": "602室",
+          "status": "房东/同住者",
+          "last_chapter": 2
         },
         "history": [
           {
@@ -73,6 +103,20 @@
             "old": "顾晚晴的房产",
             "new": "静雅小区3号楼602室(房产)",
             "reason": "房子出租给叶凡"
+          },
+          {
+            "chapter": 2,
+            "field": "location",
+            "old": "静雅小区3号楼602室(房产)",
+            "new": "602室",
+            "reason": "回家"
+          },
+          {
+            "chapter": 2,
+            "field": "status",
+            "old": "房东",
+            "new": "同住者",
+            "reason": "两人开始共同生活"
           }
         ],
         "created_chapter": 1,
@@ -93,6 +137,25 @@
         "history": [],
         "created_chapter": 1,
         "first_appearance": "正文/第0001章.md"
+      },
+      "mother_gu": {
+        "id": "mother_gu",
+        "canonical_name": "顾母",
+        "aliases": [
+          "她母亲",
+          "妈"
+        ],
+        "tier": "装饰",
+        "desc": "顾晚晴的母亲，催促女儿考虑个人问题",
+        "current": {
+          "realm": "普通人",
+          "location": "",
+          "status": "",
+          "last_chapter": 2
+        },
+        "history": [],
+        "created_chapter": 2,
+        "first_appearance": "正文/第0002章.md"
       }
     },
     "地点": {
@@ -106,7 +169,7 @@
           "realm": "普通人",
           "location": "",
           "status": "",
-          "last_chapter": 1
+          "last_chapter": 2
         },
         "history": [],
         "created_chapter": 1,
@@ -115,21 +178,105 @@
       "602_room": {
         "id": "602_room",
         "canonical_name": "602室",
-        "aliases": [],
+        "aliases": [
+          "房间",
+          "次卧"
+        ],
         "tier": "重要",
-        "desc": "顾晚晴的出租房次卧",
+        "desc": "顾晚晴的出租房，包含次卧、客厅、厨房",
         "current": {
           "realm": "普通人",
           "location": "",
           "status": "",
-          "last_chapter": 1
+          "last_chapter": 2
         },
         "history": [],
         "created_chapter": 1,
         "first_appearance": "正文/第0001章.md"
+      },
+      "living_room": {
+        "id": "living_room",
+        "canonical_name": "客厅",
+        "aliases": [],
+        "tier": "普通",
+        "desc": "602室的公共客厅区域，有沙发和电视",
+        "current": {
+          "realm": "普通人",
+          "location": "602室",
+          "status": "",
+          "last_chapter": 2
+        },
+        "history": [],
+        "created_chapter": 2,
+        "first_appearance": "正文/第0002章.md"
+      },
+      "kitchen": {
+        "id": "kitchen",
+        "canonical_name": "厨房",
+        "aliases": [],
+        "tier": "普通",
+        "desc": "602室的厨房空间",
+        "current": {
+          "realm": "普通人",
+          "location": "602室",
+          "status": "",
+          "last_chapter": 2
+        },
+        "history": [],
+        "created_chapter": 2,
+        "first_appearance": "正文/第0002章.md"
+      },
+      "neighbor_community": {
+        "id": "neighbor_community",
+        "canonical_name": "隔壁小区",
+        "aliases": [],
+        "tier": "普通",
+        "desc": "静雅小区附近的另一个小区，顾晚晴在此看房",
+        "current": {
+          "realm": "普通人",
+          "location": "",
+          "status": "",
+          "last_chapter": 2
+        },
+        "history": [],
+        "created_chapter": 2,
+        "first_appearance": "正文/第0002章.md"
       }
     },
-    "物品": {},
+    "物品": {
+      "sofa": {
+        "id": "sofa",
+        "canonical_name": "沙发",
+        "aliases": [],
+        "tier": "普通",
+        "desc": "客厅的家具",
+        "current": {
+          "realm": "物品",
+          "location": "602室客厅",
+          "status": "",
+          "last_chapter": 2
+        },
+        "history": [],
+        "created_chapter": 2,
+        "first_appearance": "正文/第0002章.md"
+      },
+      "apple": {
+        "id": "apple",
+        "canonical_name": "苹果",
+        "aliases": [],
+        "tier": "普通",
+        "desc": "顾晚晴给叶凡买的苹果",
+        "current": {
+          "realm": "物品",
+          "location": "叶凡手中",
+          "status": "",
+          "last_chapter": 2
+        },
+        "history": [],
+        "created_chapter": 2,
+        "first_appearance": "正文/第0002章.md"
+      }
+    },
     "势力": {},
     "招式": {}
   },
@@ -152,6 +299,12 @@
         "id": "middle_woman"
       }
     ],
+    "顾母": [
+      {
+        "type": "角色",
+        "id": "mother_gu"
+      }
+    ],
     "静雅小区": [
       {
         "type": "地点",
@@ -162,6 +315,36 @@
       {
         "type": "地点",
         "id": "602_room"
+      }
+    ],
+    "客厅": [
+      {
+        "type": "地点",
+        "id": "living_room"
+      }
+    ],
+    "厨房": [
+      {
+        "type": "地点",
+        "id": "kitchen"
+      }
+    ],
+    "隔壁小区": [
+      {
+        "type": "地点",
+        "id": "neighbor_community"
+      }
+    ],
+    "沙发": [
+      {
+        "type": "物品",
+        "id": "sofa"
+      }
+    ],
+    "苹果": [
+      {
+        "type": "物品",
+        "id": "apple"
       }
     ]
   },
@@ -286,6 +469,22 @@
       "description": "叶凡租住顾晚晴的房子",
       "chapter": 1,
       "created_at": "2026-01-18T23:28:02.674235"
+    },
+    {
+      "from": "guwanqing",
+      "to": "yefan",
+      "type": "同住",
+      "description": "顾晚晴与叶凡开始在同一屋檐下生活",
+      "chapter": 2,
+      "created_at": "2026-01-18T23:45:00.000000"
+    },
+    {
+      "from": "guwanqing",
+      "to": "mother_gu",
+      "type": "母女",
+      "description": "顾晚晴母亲催促她考虑个人问题",
+      "chapter": 2,
+      "created_at": "2026-01-18T23:45:00.000000"
     }
   ]
 }
