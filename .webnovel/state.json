@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "title": "我和房东有个约会",
+    "genre": "都市言情",
+    "author": "叶凡",
+    "target_words": 1500000,
+    "current_words": 0,
+    "current_chapter": 1,
+    "created_at": "2026-01-18",
+    "updated_at": "2026-01-18T23:28:02.674254",
+    "golden_finger": "无",
+    "core_selling_point": "冷艳房东×痞帅租客的先虐后甜感情线"
+  },
+  "plot_summary": {
+    "hook": "落魄富二代租房遭遇冷艳房东，互相看不顺眼的两人却要朝夕相处",
+    "premise": "叶凡是从云端跌落的富二代，因家族破产沦为普通人租房居住。房东顾晚晴是一位冷艳美丽的独立女性，两人因身份差距和性格碰撞产生种种矛盾。在日常相处中，叶凡发现顾晚晴外冷内热的真实一面，而顾晚晴也被叶凡痞帅外表下的担当所打动。",
+    "conflict": "叶凡的自尊心使他无法接受身份差距的现实，而顾晚晴的冷艳外表下隐藏着对真情的渴望。两人需要跨越阶层的偏见和内心的防线才能走到一起。",
+    "stakes": "如果无法跨越身份和心理的障碍，两人将错过这段真挚的感情，各自活在遗憾中。"
+  },
+  "world_settings": {
+    "world_name": "现代都市",
+    "era": "当代",
+    "main_continent": "中国某一线城市",
+    "power_structure": "现代都市社会，阶层分明",
+    "spiritual_energy": "无灵气，普通人世界"
+  },
+  "power_system": {
+    "name": "无修炼体系",
+    "levels": [],
+    "special_ability": "无",
+    "ability_description": "纯感情线，无超自然元素"
+  },
+  "entities_v3": {
+    "角色": {
+      "yefan": {
+        "id": "yefan",
+        "canonical_name": "叶凡",
+        "aliases": [
+          "那个租客",
+          "小子"
+        ],
+        "tier": "核心",
+        "desc": "主角，落魄富二代，痞帅有担当",
+        "current": {
+          "realm": "普通人",
+          "location": "顾晚晴的出租房",
+          "status": "租房中",
+          "last_chapter": 0
+        },
+        "history": [],
+        "created_chapter": 1,
+        "first_appearance": "正文/第0001章.md"
+      },
+      "guwanqing": {
+        "id": "guwanqing",
+        "canonical_name": "顾晚晴",
+        "aliases": [
+          "房东",
+          "那个女人"
+        ],
+        "tier": "核心",
+        "desc": "女主，冷艳房东，外冷内热",
+        "current": {
+          "realm": "普通人",
+          "location": "静雅小区3号楼602室(房产)",
+          "status": "房东",
+          "last_chapter": 1
+        },
+        "history": [
+          {
+            "chapter": 1,
+            "field": "location",
+            "old": "顾晚晴的房产",
+            "new": "静雅小区3号楼602室(房产)",
+            "reason": "房子出租给叶凡"
+          }
+        ],
+        "created_chapter": 1,
+        "first_appearance": "正文/第0001章.md"
+      },
+      "middle_woman": {
+        "id": "middle_woman",
+        "canonical_name": "中年妇女",
+        "aliases": [],
+        "tier": "装饰",
+        "desc": "街边举牌招租的中年妇女，态度敷衍",
+        "current": {
+          "realm": "普通人",
+          "location": "",
+          "status": "",
+          "last_chapter": 1
+        },
+        "history": [],
+        "created_chapter": 1,
+        "first_appearance": "正文/第0001章.md"
+      }
+    },
+    "地点": {
+      "jingya_community": {
+        "id": "jingya_community",
+        "canonical_name": "静雅小区",
+        "aliases": [],
+        "tier": "重要",
+        "desc": "老小区，干净整洁，有3号楼602室",
+        "current": {
+          "realm": "普通人",
+          "location": "",
+          "status": "",
+          "last_chapter": 1
+        },
+        "history": [],
+        "created_chapter": 1,
+        "first_appearance": "正文/第0001章.md"
+      },
+      "602_room": {
+        "id": "602_room",
+        "canonical_name": "602室",
+        "aliases": [],
+        "tier": "重要",
+        "desc": "顾晚晴的出租房次卧",
+        "current": {
+          "realm": "普通人",
+          "location": "",
+          "status": "",
+          "last_chapter": 1
+        },
+        "history": [],
+        "created_chapter": 1,
+        "first_appearance": "正文/第0001章.md"
+      }
+    },
+    "物品": {},
+    "势力": {},
+    "招式": {}
+  },
+  "alias_index": {
+    "叶凡": [
+      {
+        "type": "角色",
+        "id": "yefan"
+      }
+    ],
+    "顾晚晴": [
+      {
+        "type": "角色",
+        "id": "guwanqing"
+      }
+    ],
+    "中年妇女": [
+      {
+        "type": "角色",
+        "id": "middle_woman"
+      }
+    ],
+    "静雅小区": [
+      {
+        "type": "地点",
+        "id": "jingya_community"
+      }
+    ],
+    "602室": [
+      {
+        "type": "地点",
+        "id": "602_room"
+      }
+    ]
+  },
+  "plot_outline": {
+    "total_volumes": 10,
+    "chapters_per_volume": 150,
+    "volume_summaries": [
+      {
+        "volume": 1,
+        "title": "相遇",
+        "summary": "叶凡租房初见顾晚晴，两人互相看不顺眼",
+        "key_events": [
+          "租房",
+          "初见",
+          "冲突",
+          "入住"
+        ]
+      },
+      {
+        "volume": 2,
+        "title": "磨合",
+        "summary": "日常相处中矛盾不断，但开始互相了解",
+        "key_events": [
+          "生活习惯冲突",
+          "互相吐槽",
+          "发现对方优点"
+        ]
+      },
+      {
+        "volume": 3,
+        "title": "心动",
+        "summary": "叶凡或顾晚晴开始对对方产生好感",
+        "key_events": [
+          "某件小事打动",
+          "内心挣扎",
+          "表面装作不在意"
+        ]
+      },
+      {
+        "volume": 4,
+        "title": "挣扎",
+        "summary": "身份差距带来的心理障碍",
+        "key_events": [
+          "叶凡的自尊",
+          "顾晚晴的犹豫",
+          "感情受阻"
+        ]
+      },
+      {
+        "volume": 5,
+        "title": "虐心",
+        "summary": "两人关系遭遇重大挫折",
+        "key_events": [
+          "误会",
+          "争吵",
+          "暂时分开"
+        ]
+      },
+      {
+        "volume": 6,
+        "title": "反转",
+        "summary": "真相大白，误会解除",
+        "key_events": [
+          "解释",
+          "和好",
+          "确认心意"
+        ]
+      },
+      {
+        "volume": 7,
+        "title": "甜蜜",
+        "summary": "两人开始甜蜜恋爱",
+        "key_events": [
+          "约会",
+          "见家长",
+          "秀恩爱"
+        ]
+      },
+      {
+        "volume": 8,
+        "title": "挑战",
+        "summary": "外部挑战出现",
+        "key_events": [
+          "情敌",
+          "家庭反对",
+          "现实压力"
+        ]
+      },
+      {
+        "volume": 9,
+        "title": "坚守",
+        "summary": "两人共同面对困难",
+        "key_events": [
+          "共同奋斗",
+          "证明真心",
+          "感情升华"
+        ]
+      },
+      {
+        "volume": 10,
+        "title": "相守",
+        "summary": "有情人终成眷属",
+        "key_events": [
+          "结婚",
+          "甜蜜结局",
+          "番外"
+        ]
+      }
+    ]
+  },
+  "writing_guidelines": {
+    "style": "第三人称限知视角，双线切换（叶凡+顾晚晴）",
+    "tone": "先虐后甜，前半段以矛盾和心动为主，后半段甜蜜温馨",
+    "pace": "前20万字铺垫感情，之后节奏加快，甜虐交替",
+    "cool_point_density": "每3000字一个小互动，每10000字一个重要情节"
+  },
+  "relationships": [
+    {
+      "from": "yefan",
+      "to": "guwanqing",
+      "type": "房东-租客",
+      "description": "叶凡租住顾晚晴的房子",
+      "chapter": 1,
+      "created_at": "2026-01-18T23:28:02.674235"
+    }
+  ]
+}

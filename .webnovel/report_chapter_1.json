@@ -1,0 +1,139 @@
+{
+  "chapter": 1,
+  "entities_appeared": 2,
+  "entities_new": 3,
+  "state_changes": 1,
+  "relationships_new": 1,
+  "scenes_chunked": 4,
+  "uncertain_resolved": 1,
+  "warnings": [],
+  "details": {
+    "entities_appeared": [
+      {
+        "id": "yefan",
+        "type": "角色",
+        "mentions": [
+          "叶凡",
+          "他"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "guwanqing",
+        "type": "角色",
+        "mentions": [
+          "顾晚晴",
+          "她",
+          "顾女士"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "entities_new": [
+      {
+        "suggested_id": "middle_woman",
+        "name": "中年妇女",
+        "type": "角色",
+        "tier": "装饰",
+        "desc": "街边举牌招租的中年妇女，态度敷衍"
+      },
+      {
+        "suggested_id": "jingya_community",
+        "name": "静雅小区",
+        "type": "地点",
+        "tier": "重要",
+        "desc": "老小区，干净整洁，有3号楼602室"
+      },
+      {
+        "suggested_id": "602_room",
+        "name": "602室",
+        "type": "地点",
+        "tier": "重要",
+        "desc": "顾晚晴的出租房次卧"
+      }
+    ],
+    "state_changes": [
+      {
+        "entity_id": "guwanqing",
+        "field": "location",
+        "old": "顾晚晴的房产",
+        "new": "静雅小区3号楼602室(房产)",
+        "reason": "房子出租给叶凡"
+      }
+    ],
+    "relationships_new": [
+      {
+        "from": "yefan",
+        "to": "guwanqing",
+        "type": "房东-租客",
+        "description": "叶凡租住顾晚晴的房子"
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 50,
+        "location": "街头/写字楼",
+        "summary": "叶凡面试失败，漫无目的地走在街头，回忆家族破产的落魄处境。",
+        "characters": [
+          "yefan"
+        ]
+      },
+      {
+        "index": 2,
+        "start_line": 51,
+        "end_line": 110,
+        "location": "街边",
+        "summary": "叶凡遇到举牌的中年妇女租房，被嫌弃价格高后离开。",
+        "characters": [
+          "yefan",
+          "middle_woman"
+        ]
+      },
+      {
+        "index": 3,
+        "start_line": 111,
+        "end_line": 280,
+        "location": "静雅小区3号楼602室",
+        "summary": "叶凡联系顾晚晴看房，两人因规矩和房租问题产生摩擦，最终签约成功。叶凡调侃顾晚晴的手机壳。",
+        "characters": [
+          "yefan",
+          "guwanqing"
+        ]
+      },
+      {
+        "index": 4,
+        "start_line": 281,
+        "end_line": 328,
+        "location": "静雅小区门口/街头",
+        "summary": "叶凡离开小区，望着只剩六百块的账户，感慨万千。",
+        "characters": [
+          "yefan"
+        ]
+      }
+    ],
+    "uncertain": [
+      {
+        "mention": "那位先生",
+        "context": "中年妇女对叶凡的称呼",
+        "candidates": [
+          {
+            "type": "角色",
+            "id": "yefan"
+          }
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "adopted": [
+      {
+        "mention": "那位先生",
+        "adopted": "yefan",
+        "confidence": 0.85,
+        "reason": "高置信度直接采用"
+      }
+    ]
+  },
+  "processed_at": "2026-01-18T23:28:02.694808"
+}
