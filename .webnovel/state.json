@@ -4,10 +4,10 @@
     "genre": "都市言情",
     "author": "叶凡",
     "target_words": 1500000,
-    "current_words": 7200,
-    "current_chapter": 2,
+    "current_words": 12200,
+    "current_chapter": 3,
     "created_at": "2026-01-18",
-    "updated_at": "2026-01-18T23:45:00.000000",
+    "updated_at": "2026-01-19T00:05:02.991718",
     "golden_finger": "无",
     "core_selling_point": "冷艳房东×痞帅租客的先虐后甜感情线"
   },
@@ -43,10 +43,10 @@
         "desc": "主角，落魄富二代，痞帅有担当",
         "current": {
           "realm": "普通人",
-          "location": "602室次卧",
-          "status": "已入住/找工作",
+          "location": "外出面试/602室",
+          "status": "找工作中/面试失败",
           "money": "600元",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [
           {
@@ -76,6 +76,34 @@
             "old": null,
             "new": "600元",
             "reason": "账户余额暴露经济困难"
+          },
+          {
+            "chapter": 3,
+            "field": "status",
+            "old": "已入住/找工作",
+            "new": "找工作中/面试失败",
+            "reason": "叶凡持续找工作但面试未果"
+          },
+          {
+            "chapter": 3,
+            "field": "location",
+            "old": "602室次卧",
+            "new": "外出面试/602室",
+            "reason": "早上面试失败后回到住处"
+          },
+          {
+            "chapter": 3,
+            "field": "status",
+            "old": "已入住/找工作",
+            "new": "找工作中/面试失败",
+            "reason": "叶凡持续找工作但面试未果"
+          },
+          {
+            "chapter": 3,
+            "field": "location",
+            "old": "602室次卧",
+            "new": "外出面试/602室",
+            "reason": "早上面试失败后回到住处"
           }
         ],
         "created_chapter": 1,
@@ -93,8 +121,8 @@
         "current": {
           "realm": "普通人",
           "location": "602室",
-          "status": "房东/同住者",
-          "last_chapter": 2
+          "status": "房东/同住者/对叶凡产生信任",
+          "last_chapter": 3
         },
         "history": [
           {
@@ -117,6 +145,20 @@
             "old": "房东",
             "new": "同住者",
             "reason": "两人开始共同生活"
+          },
+          {
+            "chapter": 3,
+            "field": "status",
+            "old": "房东/同住者",
+            "new": "房东/同住者/对叶凡产生信任",
+            "reason": "顾晚晴主动向叶凡提及ex往事"
+          },
+          {
+            "chapter": 3,
+            "field": "status",
+            "old": "房东/同住者",
+            "new": "房东/同住者/对叶凡产生信任",
+            "reason": "顾晚晴主动向叶凡提及ex往事"
           }
         ],
         "created_chapter": 1,
@@ -132,7 +174,7 @@
           "realm": "普通人",
           "location": "",
           "status": "",
-          "last_chapter": 1
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 1,
@@ -151,11 +193,27 @@
           "realm": "普通人",
           "location": "",
           "status": "",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 2,
         "first_appearance": "正文/第0002章.md"
+      },
+      "ex_boyfriend": {
+        "id": "ex_boyfriend",
+        "canonical_name": "顾晚晴前男友",
+        "aliases": [],
+        "tier": "伏笔",
+        "desc": "顾晚晴相恋三年后劈腿的前男友",
+        "current": {
+          "realm": "",
+          "location": "",
+          "status": "",
+          "last_chapter": 3
+        },
+        "history": [],
+        "created_chapter": 3,
+        "first_appearance": "正文/第0003章.md"
       }
     },
     "地点": {
@@ -169,7 +227,7 @@
           "realm": "普通人",
           "location": "",
           "status": "",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 1,
@@ -188,7 +246,7 @@
           "realm": "普通人",
           "location": "",
           "status": "",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 1,
@@ -204,7 +262,7 @@
           "realm": "普通人",
           "location": "602室",
           "status": "",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 2,
@@ -220,7 +278,7 @@
           "realm": "普通人",
           "location": "602室",
           "status": "",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 2,
@@ -236,7 +294,7 @@
           "realm": "普通人",
           "location": "",
           "status": "",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 2,
@@ -254,7 +312,7 @@
           "realm": "物品",
           "location": "602室客厅",
           "status": "",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 2,
@@ -270,11 +328,77 @@
           "realm": "物品",
           "location": "叶凡手中",
           "status": "",
-          "last_chapter": 2
+          "last_chapter": 3
         },
         "history": [],
         "created_chapter": 2,
         "first_appearance": "正文/第0002章.md"
+      },
+      "ex_boyfriend": {
+        "id": "ex_boyfriend",
+        "canonical_name": "顾晚晴前男友",
+        "aliases": [],
+        "tier": "伏笔",
+        "desc": "顾晚晴相恋三年后劈腿的前男友",
+        "current": {
+          "realm": "",
+          "location": "",
+          "status": "",
+          "last_chapter": 3
+        },
+        "history": [],
+        "created_chapter": 3,
+        "first_appearance": "正文/第0003章.md"
+      },
+      "shaver": {
+        "id": "shaver",
+        "canonical_name": "剃须刀",
+        "aliases": [],
+        "tier": "普通",
+        "desc": "顾晚晴借给叶凡的剃须刀",
+        "current": {
+          "realm": "物品",
+          "location": "602室",
+          "status": "",
+          "last_chapter": 3
+        },
+        "history": [],
+        "created_chapter": 3,
+        "first_appearance": "正文/第0003章.md"
+      },
+      "breakfast_set": {
+        "id": "breakfast_set",
+        "canonical_name": "豆浆油条",
+        "aliases": [
+          "早餐"
+        ],
+        "tier": "普通",
+        "desc": "顾晚晴给叶凡买的早餐",
+        "current": {
+          "realm": "物品",
+          "location": "602室餐桌",
+          "status": "已食用",
+          "last_chapter": 3
+        },
+        "history": [],
+        "created_chapter": 3,
+        "first_appearance": "正文/第0003章.md"
+      },
+      "phone": {
+        "id": "phone",
+        "canonical_name": "手机",
+        "aliases": [],
+        "tier": "普通",
+        "desc": "叶凡的智能手机",
+        "current": {
+          "realm": "物品",
+          "location": "叶凡",
+          "status": "使用中",
+          "last_chapter": 3
+        },
+        "history": [],
+        "created_chapter": 3,
+        "first_appearance": "正文/第0003章.md"
       }
     },
     "势力": {},
@@ -346,6 +470,30 @@
         "type": "物品",
         "id": "apple"
       }
+    ],
+    "顾晚晴前男友": [
+      {
+        "type": "角色",
+        "id": "ex_boyfriend"
+      }
+    ],
+    "剃须刀": [
+      {
+        "type": "物品",
+        "id": "shaver"
+      }
+    ],
+    "豆浆油条": [
+      {
+        "type": "物品",
+        "id": "breakfast_set"
+      }
+    ],
+    "手机": [
+      {
+        "type": "物品",
+        "id": "phone"
+      }
     ]
   },
   "plot_outline": {
@@ -360,7 +508,8 @@
           "租房",
           "初见",
           "冲突",
-          "入住"
+          "入住",
+          "互相照顾约定"
         ]
       },
       {
@@ -485,6 +634,22 @@
       "description": "顾晚晴母亲催促她考虑个人问题",
       "chapter": 2,
       "created_at": "2026-01-18T23:45:00.000000"
+    },
+    {
+      "from": "yefan",
+      "to": "guwanqing",
+      "type": "互相照顾",
+      "description": "两人达成口头约定，互相照顾",
+      "chapter": 3,
+      "created_at": "2026-01-19T00:04:33.280295"
+    },
+    {
+      "from": "yefan",
+      "to": "guwanqing",
+      "type": "互相照顾",
+      "description": "两人达成口头约定，互相照顾",
+      "chapter": 3,
+      "created_at": "2026-01-19T00:05:02.991757"
     }
   ]
 }
